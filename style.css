@@ -85,3 +85,40 @@ body {
 #reset {
   background-color: orangered;
 }
+
+/* media quires  */
+@media screen and (max-width: 600px) {
+  .stopWatch {
+    width: 350px;
+    height: 300px;
+    background-color: lightgray;
+    position: fixed;
+    top: 40%;
+    left: 20%;
+    border-radius: 20px;
+  }
+  /* stopWatch digits  */
+  .digit {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #btn-container {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+  }
+  .btn {
+    padding: 5px 5px;
+    font-size: 15px;
+    margin-left: 200px;
+    margin: 5px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+}
