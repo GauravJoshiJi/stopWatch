@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Linking the Css file   -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- this is stopWatch  -->
+      <div class="stopWatch">
+        <div id="time">
+          <!-- for Hr  -->
+          <span class="digit" id="hr">00</span>
+          <span class="text">Hr</span>
+          <!-- for min  -->
+          <span class="digit" id="min">00</span>
+          <span class="text">Min</span>
+          <!-- for Sec  -->
+          <span class="digit" id="sec">00</span>
+          <span class="text">Sec</span>
+          <!-- for milliSec  -->
+          <span class="digit" id="count">00</span>
+        </div>
+        <div id="btn-container">
+          <!-- start button  -->
+          <button class="btn" id="start" onclick="start()">Start</button>
+          <!-- stop button  -->
+          <button class="btn" id="stop" onclick="stop()">Stop</button>
+          <!-- reset button  -->
+          <button class="btn" id="reset" onclick="reset()">Reset</button>
+        </div>
+      </div>
+      <!-- this is Background  -->
+      <div class="bubbles">
+        <!-- pink and blue bubbles  -->
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 24"></span>
+        <span style="--i: 10"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 23"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 20"></span>
+        <span style="--i: 22"></span>
+        <span style="--i: 25"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 26"></span>
+        <span style="--i: 17"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 28"></span>
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 24"></span>
+        <span style="--i: 10"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 23"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 20"></span>
+        <span style="--i: 22"></span>
+        <span style="--i: 25"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 26"></span>
+        <span style="--i: 17"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 28"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
